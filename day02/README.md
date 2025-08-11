@@ -23,3 +23,6 @@ dictionary-app/
 ├── style.css        # Stylesheet
 ├── first.js         # JavaScript functionality
 └── README.md        # Project documentation
+
+🌐 Live Demo
+https://iamamanrajdev.github.io/JS-Projects/day02/
