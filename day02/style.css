@@ -1,0 +1,125 @@
+/* Global Styles & Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f9;/* A soft, light background*/
+
+    color: #333; /* Darker text for readability */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the footer stays at the bottom */
+    background-image: url("./11070.jpg");
+    background-size: cover; 
+    background-position: center;  
+}
+
+/* Header Section */
+header {
+    background-color: #2c3e50; /* A dark, professional header color */
+    padding: 20px;
+    color: #ecf0f1; /* Light text for contrast */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-image: url(./v915-wit-011-l.jpg);
+		background-position: right bottom;
+}
+
+header h1 {
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color:  #0e5ade;
+}
+
+/* Main Content Area */
+main {
+    flex: 1; /* Allows main content to fill available space */
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main form {
+    display: flex;
+    gap: 10px; /* Use gap for spacing instead of margin */
+}
+
+form input[type="text"] {
+    flex: 1;
+    padding: 15px 20px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+form input[type="text"]:focus {
+    outline: none;
+    border-color: #3498db; /* Highlight border on focus */
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+}
+
+form button[type="submit"] {
+    background-color: #3498db; /* A vibrant blue */
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #2980b9; /* Slightly darker on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+}
+
+/* Footer Section */
+footer {
+    background-color: #2c3e50; /* Same as header for consistency */
+    padding: 20px;
+    color: #ecf0f1;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
+footer a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.result {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: #ffffffcc; /* Slight transparency for background */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    font-size: 18px;
+    line-height: 1.6;
+    color: #2c3e50;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.result p {
+    margin: 10px 0;
+}
+
+.result b {
+    color: #0e5ade;
+}
